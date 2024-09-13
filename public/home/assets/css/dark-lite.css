@@ -1,0 +1,241 @@
+/*================================
+<--  maria light-theme Style Css -->
+==================================*/
+
+/* Dark Lite */
+.dark-light {
+    cursor: pointer;
+    position: fixed;
+    z-index: 9999;
+    top: 28px;
+    right: 140px;
+}
+
+.dark-light span {
+    color: #63ff9a;
+    font-size: 35px;
+}
+
+body.light-theme {
+    color: #fff !important;
+}
+
+.light-theme .dark-light .sun{
+    display:none;
+}
+
+.light-theme .dark-light .moon{
+    display:block;
+}
+
+.light-theme .sticky .dark-light .sun{
+    display:none;
+}
+
+.light-theme .sticky .dark-light .moon{
+    display:block;
+}
+
+/* header area css*/
+
+.light-theme .sticky .dark-light {
+    cursor: pointer;
+    z-index: 998;
+}
+
+.light-theme .toptech_nav_manu{
+    background: url(../images/resource/header-lig-bg.png) !important;
+}
+
+.light-theme .logo_img{
+    background: url(../images/resource/logo-light.png) !important;
+}
+
+.light-theme .sticky .logo_img{
+    background: url(../images/resource/logo-light.png) !important;
+}
+
+.light-theme .main_sticky img.logo-light {
+    display: block;
+}
+
+.light-theme .main_sticky img.logo-dark {
+    display: none;
+}
+
+.light-theme .toptech_menu>ul>li>a{
+    color:#10140D;
+}
+
+.light-theme  nav.toptech_menu span{
+    color:#10140D;
+}
+
+.light-theme .sticky {
+    background: #fff !important;
+}
+
+.light-theme .search-box-btn.search-box-outer {
+    color: #161617;
+}
+
+.light-theme .search-box-btn.search-box-outer i {
+    color: #000;
+}
+
+.light-theme .sticky .toptech_menu>ul>li>a {
+    color: #000;
+}
+
+.light-theme .sticky .search-box-btn.search-box-outer i {
+    color: #000;
+}
+/* hero section css*/
+.light-theme .hero-section {
+    background: url(../images/resource/hero-light-bg.png) !important;
+}
+
+.light-theme .hero-shape {
+display: none;
+}
+
+.light-theme .hero-title h1 {
+    color: #000000;
+}
+
+.light-theme .hero-text p {
+    color: #616161;
+}
+
+.light-theme .sticky .toptech_menu>ul>li>a i {
+    color: #000000;
+}
+
+.light-theme .hero-right-text span {
+    color: #000000;
+}
+
+.light-theme .hero-counter h2 {
+    color: #000000;
+}
+
+.light-theme span.counter-text {
+    color: #000000;
+}
+
+/*service area */
+.light-theme .service-area {
+    background: #fff;
+}
+
+.light-theme .toptech-section-title h1 {
+    color: #000000;
+}
+
+.light-theme .toptech-desc p {
+    color: #616161;
+}
+
+.light-theme .service-button a {
+    color: #000000;
+}
+
+.light-theme .service-title h3 {
+    color: #000000;
+}
+
+.light-theme .service-des p {
+    color: #000000;
+}
+
+.light-theme .single-service-box::before {
+    background: #000000;
+}
+
+.light-theme .single-service-box::after {
+    background: #000000;
+}
+
+.light-theme .single-service-box:hover {
+    background-color: #fff!important;
+    background: linear-gradient(90deg, #63ff9a 50%, transparent 0) repeat-x, linear-gradient(90deg, #63ff9a 50%, transparent 0) repeat-x, linear-gradient(0deg, #63ff9a 50%, transparent 0) repeat-y, linear-gradient(0deg, #63ff9a 50%, transparent 0) repeat-y;
+    background-size: 8px 2px, 8px 2px, 2px 8px, 2px 8px;
+    background-position: 0 0, 0 100%, 0 0, 100% 0;
+    -webkit-animation: linearGradientMove 0.5s infinite linear;
+    animation: linearGradientMove 0.5s infinite linear;
+}
+
+/*skill area */
+.light-theme .skill-area {
+    background: url(../images/resource/skill-light-bg.png) !important;
+}
+
+.light-theme .toptech-section-title p {
+    color: #000000;
+}
+
+.light-theme .prossess-ber-plugin span {
+    color: #000000;
+}
+
+.light-theme .skill-button a {
+    color: #000000;
+}
+
+/*why-choose-us-area */
+.light-theme .why-choose-us-area {
+    background-color: #fff;
+}
+
+.light-theme .choose-button a {
+    color: #000000;
+}
+
+.light-theme .choose-year-title h2 {
+    color: #000000;
+}
+
+.light-theme .choose-product-title h2,
+.light-theme .choose-group-title h2 {
+    color: #000000;
+}
+
+/*blog section*/
+.light-theme .blog-area{
+    background: url(../images/resource/blog-light-bg.png) !important;
+}
+
+.light-theme .blog-button a {
+    color: #000000;
+}
+
+/*testimonial-section */
+.light-theme .testimonial-section {
+    background: #fff;
+}
+
+.light-theme .testi-button a {
+    color: #000000;
+}
+
+.light-theme .testimonial-box-description p {
+    color: #000000;
+}
+
+.light-theme .testimonial-autor-title h5 {
+    color: #000000;
+}
+
+.light-theme .testi-quote-icon {
+    filter: brightness(0.5) invert(1);
+}
+
+/*call-to-action-section */
+.light-theme .call-to-action-section {
+    background: #fff;
+    padding-bottom: 110px;
+}
+
+.light-theme .row.call-bg{
+    background: url(../images/resource/call-light-bg.png) !important;
+}
